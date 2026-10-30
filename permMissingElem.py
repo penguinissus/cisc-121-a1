@@ -1,6 +1,4 @@
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
-
+# only fail case: timeout
 def solution(A):
     # length could be zero
     if(len(A)==0):
