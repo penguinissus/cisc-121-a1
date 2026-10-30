@@ -1,4 +1,3 @@
-
 def solution(X, Y, D):
     distance = Y-X
     jumps = distance//D
