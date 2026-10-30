@@ -1,5 +1,5 @@
 def solution (A, K):
-    for i in range(1, K):
+    for i in range(0, K):
         num = A[len(A)-1]
         for j in range(len(A)-1, 0, -1):
             A[j] = A[j-1]
